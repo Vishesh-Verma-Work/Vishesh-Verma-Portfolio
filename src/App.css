@@ -183,6 +183,7 @@ body {
 
 
 .home-container {
+  background: url("./assets/main-bg/bg.png") no-repeat center center/cover;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -233,8 +234,8 @@ body {
 
 .home-video-frame {
   width: 100%;
-  max-width: 550px;           /* slightly wider */
-  height: 340px;              /* manually set height for a taller frame */
+  max-width: 550px;           
+  height: 390px;            
   border-radius: 18px;
   overflow: hidden;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
@@ -270,7 +271,7 @@ body {
   }
 
   .home-video-frame {
-    max-width: 350px;
+    max-width: 560px;
     margin-bottom: 40px;
   }
 }
@@ -295,8 +296,8 @@ body {
 
  
  .home-video-frame {
-  max-width: 360px;
-  height: 220px;             /* taller on mobile */
+  max-width: 460px;
+  height: 260px;             /* taller on mobile */
   border-width: 3px;
 }
 
@@ -308,7 +309,7 @@ body {
   }
 
   .home-video-frame {
-    max-width: 260px;
+    max-width: 330px;
   }
 }
 
@@ -364,7 +365,7 @@ body {
 }
 
 .achievement-content {
-  padding: 20px;
+  padding: 15px;
   display: flex;
   flex-direction: column;
   justify-content: space-between; /* aligns description and button correctly */
@@ -372,13 +373,13 @@ body {
 }
 
 .achievement-content h3 {
-  color: #64ffda;
-  font-size: 1.1rem;
+  color: #ccd6f6;
+  font-size: 1.4rem;
   margin-bottom: 10px;
 }
 
 .achievement-content p {
-  margin: 6px 0;
+  margin: 1px 0;
   line-height: 1.5;
   font-size: 0.9rem;
 }
@@ -400,8 +401,8 @@ body {
   text-decoration: none;
   margin-top: 15px;
   padding: 8px 16px;
-  border: 1px solid #64ffda;
-  color: #64ffda;
+  border: 1px solid #fff;
+  color: #fff;
   background: transparent;
   border-radius: 6px;
   font-size: 0.9rem;
@@ -410,7 +411,7 @@ body {
 }
 
 .prove-btn:hover {
-  background: #64ffda;
+  background: #ccd6f6;
   color: #0a192f;
   font-weight: 600;
 }
@@ -457,6 +458,8 @@ body {
     width: 100%;
   }
 }
+
+/* bg design  */
 
 
 /* ---------- Projects Section ---------- */
@@ -566,7 +569,7 @@ body {
 .project-btn:hover {
   background: #0a192f;
   color: #fff;
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 
 /* ---------- Responsiveness ---------- */
@@ -646,6 +649,7 @@ body {
 }
 
 .experience-data {
+  height: 380px;
   flex: 2;
   background-color: #ffffff;
   padding: 25px;
@@ -727,7 +731,7 @@ body {
    .skills-section {
   padding: 60px 10%;
   background-color: #e6f2ff;
-  color: #0a192f;
+  color: #000000;
   font-family: "Poppins", sans-serif;
 }
 
@@ -850,9 +854,9 @@ body {
 .certificates-section .section-heading {
   text-align: center;
   font-size: 2rem;
-  color: #64ffda;
+  color: #fff;
   margin-bottom: 50px;
-  border-bottom: 2px solid #64ffda;
+  border-bottom: 2px solid #fff;
   display: inline-block;
   padding-bottom: 6px;
 }
@@ -884,13 +888,13 @@ body {
   width: 100%;
   height: 180px;
   object-fit: cover;
-  border-bottom: 1px solid #64ffda;
+  border-bottom: 1px solid #fff;
 }
 
 .certificate-title {
   text-align: center;
   font-size: 1rem;
-  color: #64ffda;
+  color: #ccd6f6;
   padding: 10px 6px;
 }
 
@@ -1087,9 +1091,9 @@ body {
 .testimonials-section .section-heading {
   text-align: center;
   font-size: 2rem;
-  color: #64ffda;
+  color: #fff;
   margin-bottom: 50px;
-  border-bottom: 2px solid #64ffda;
+  border-bottom: 2px solid #fff;
   display: inline-block;
   padding-bottom: 6px;
 }
@@ -1131,7 +1135,7 @@ body {
 
 .testimonial-content h4 {
   font-size: 1rem;
-  color: #64ffda;
+  color: #ccd6f6;
   margin: 0;
 }
 
@@ -1194,9 +1198,9 @@ body {
 .section-heading {
   text-align: center;
   font-size: 2rem;
-  color: #64ffda; /* original green accent */
+  color: #ffffff; /* original green accent */
   margin-bottom: 50px;
-  border-bottom: 2px solid #64ffda;
+  border-bottom: 2px solid #ffffff;
   display: inline-block;
   padding-bottom: 6px;
 }
@@ -1226,7 +1230,7 @@ body {
 
 .info-item .icon {
   font-size: 1.5rem;
-  color: #64ffda; /* icon accent */
+  color: #64ffda;
 }
 
 .contact-form {
@@ -1245,7 +1249,7 @@ body {
 .form-group label {
   font-size: 0.9rem;
   margin-bottom: 5px;
-  color: #64ffda;
+  color: #fff;
 }
 
 .form-group input,
@@ -1266,9 +1270,9 @@ body {
 
 .contact-btn {
   padding: 12px 20px;
-  border: 1px solid #64ffda;
+  border: 1px solid #fff;
   background: transparent;
-  color: #64ffda;
+  color: #fff;
   font-size: 1rem;
   border-radius: 6px;
   cursor: pointer;
@@ -1276,8 +1280,8 @@ body {
 }
 
 .contact-btn:hover {
-  background: #64ffda;
-  color: #0a192f;
+  color: black;
+  background-color: #ccd6f6;
   font-weight: 600;
 }
 

@@ -9,7 +9,7 @@ const socials = [
 export default function Contact() {
   return (
     <section className="contact-section" id="contact">
-      <h2 className="section-heading">📬 Contact Me</h2>
+      <h2 className="section-heading">Contact Me</h2>
       <div className="contact-container">
         <div className="contact-info">
           <div className="info-item">

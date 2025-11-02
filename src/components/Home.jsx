@@ -9,10 +9,10 @@ const Home = () => {
           SOFTWARE ENGINEER | FULL STACK (MERN) DEVELOPER
         </h3>
         <p className="home-bio">
-          5x National Hackathon Winner & Full-Stack MERN Developer with expertise
+          <b>5x National Hackathon Winner & Full-Stack MERN Developer</b> with expertise
           in both Frontend and Backend development. A multiple-time finalist,
           including prestigious hackathons at IITs, actively expanding knowledge
-          in Data Structures and Algorithms using Java language.
+          in <b>Data Structures and Algorithms</b> using Java language.
         </p>
 
         {/* Download Resume Button */}
