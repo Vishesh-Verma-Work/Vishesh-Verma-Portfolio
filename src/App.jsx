@@ -22,11 +22,11 @@ function App() {
       <Achievements/>
       <Projects/>
       <Experience/>
-      <Testimonials/>
+      {/* <Testimonials/> */}
+      <SocialStrip/>
       <Skills/>
       <Certificates/>
       <Academics/>
-      <SocialStrip/>
       <Contact/>
     </div>
   );
